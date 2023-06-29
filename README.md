@@ -1,16 +1,14 @@
-# Art Blocks Engine (React Template)
+# Art Blocks Engine
 [![GitPOAPs](https://public-api.gitpoap.io/v1/repo/ArtBlocks/artblocks-engine-react/badge)](https://www.gitpoap.io/gh/ArtBlocks/artblocks-engine-react)
 
-This project is meant to be used as a template to build Art Blocks Engine web apps. It contains all pages and views
-necessary for users to browse projects, tokens and be able to purchase mints. This repository serves as a prototype or
-template.
+This project is meant to be used as an Art Blocks Engine web app. 
 
-It assumes your core contracts are either `GenArt721CoreV2` or `GenArt721CoreV3`, and supports the following minters:
+Ikigai Labs XYZ may soon launch a Dutch auction format. The sale will inaugurate the launch of an auction house’s Gen Art Program powered by Art Blocks’ Art Blocks Engine — the company’s generative art solutions platform that provides technical infrastructure support for brands looking to expand their generative minting capabilities.
+
+The sale will be conducted entirely on-chain via Ikigai Labs. It will feature an exclusive series of 99 unique artworks that build LTL's early forays into algorithmic art. The integration of the Art Blocks Engine is a new avenue for generative artists to bring primary market works to sale. The Gen Art Program will highlight artists. Ikigai Labs will explore Dutch auctions. This method, which has been used by Art Blocks since its inception in 2021, starts at a fixed initial price and decreases at set increments until the first bid is placed. The ceiling price is set at x ETH. The format is perfect for price discovery. Several Web3 platforms have experimented with the Dutch auction format. Most recently, the NFT marketplace Foundation announced a dynamic pricing feature for NFTs that utilizes the method to better reflect market sentiment and remove the guesswork when it comes to an artist pricing their pieces.
+
+The repo assumes your core contracts are either `GenArt721CoreV2` or `GenArt721CoreV3`, and supports the following minters:
 `GenArt721Minter`, `MinterSetPriceV4`, `MinterSetPriceERC20V4`, `MinterMerkleV5`, and `MinterHolderV4`.
-
-It is NOT intended for production use as-is. Please modify for your needs and test extensively before using.
-
-Absolutely no warranty of any kind is provided. Please review from The MIT License:
 
 ## Warning
 
